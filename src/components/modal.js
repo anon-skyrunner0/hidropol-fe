@@ -40,7 +40,7 @@ const style = {
 
 export function LoginModal() {
   const router = useRouter();
-  const url = "http://eyjlbmrwb2ludci6imhpzhjvcg9slwdhdgv3yxkifq.vercel.app/auth/login";
+  const url = "https://eyjlbmrwb2ludci6imhpzhjvcg9slwdhdgv3yxkifq.vercel.app/auth/login";
   const [open, setOpen] = React.useState(false);
   const [validateErr, setValidateErr] = React.useState();
   const [userErr, setUserErr] = React.useState();
