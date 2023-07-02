@@ -77,6 +77,19 @@ function Statistic() {
             <p className="parameter">Water Height</p>
             <p className="value">{data.water_height_sensor} cm</p>
           </Box>
+          <Box
+            sx={{
+              backgroundColor: "grey.300",
+              "&:hover": {
+                backgroundColor: "grey.200",
+              },
+            }}
+            className="monitor"
+          >
+            <Image src={water} className="icon-stats" alt="water height" />
+            <p className="parameter">PH Value</p>
+            <p className="value">{data.ph_sensor} </p>
+          </Box>
           {/* <Box
             sx={{
               backgroundColor: "grey.300",
@@ -152,6 +165,19 @@ function Statistic() {
           >
             <Image src={water} className="icon-stats" alt="water height" />
             <p className="parameter">Water Height</p>
+            <p className="value">Loading Value</p>
+          </Box>
+          <Box
+            sx={{
+              backgroundColor: "grey.300",
+              "&:hover": {
+                backgroundColor: "grey.200",
+              },
+            }}
+            className="monitor"
+          >
+            <Image src={water} className="icon-stats" alt="water height" />
+            <p className="parameter">PH Value</p>
             <p className="value">Loading Value</p>
           </Box>
           {/* <Box
